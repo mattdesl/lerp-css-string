@@ -19,7 +19,7 @@ lerp('360, 50%, 25%', '200, 100%, 50%', 0.5) // -> '280 75% 37.5%'
 
 #### `lerp(str1, str2, alpha)`
 
-Lerps between `str1` and `str2` based on the given `alpha` (typically 0.0 to 1.0), returning a new string with interpolated values and their units. Numbers and units are expected to be tightly packed (`50px` not `50 px`).
+Lerps between `str1` and `str2` based on the given `alpha` (typically 0.0 to 1.0), returning a new string with interpolated values and their units. Numbers and units are expected to be tightly packed (e.g. `50px`).
 
 ## License
 
