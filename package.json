@@ -1,0 +1,45 @@
+{
+  "name": "lerp-css-string",
+  "version": "1.0.0",
+  "description": "interpolate values in a css string",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "lerp": "^1.0.0",
+    "parse-unit": "^1.0.1"
+  },
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "lerp",
+    "css",
+    "string",
+    "parse",
+    "px",
+    "unit",
+    "em",
+    "%",
+    "interpolate",
+    "tween",
+    "animate",
+    "style",
+    "styling"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/lerp-css-string.git"
+  },
+  "homepage": "https://github.com/mattdesl/lerp-css-string",
+  "bugs": {
+    "url": "https://github.com/mattdesl/lerp-css-string/issues"
+  }
+}
