@@ -20,12 +20,15 @@ function lerpCSS(value1, value2, t) {
 module.exports = function(value1, value2, t) {
     var v1 = value1.trim().split(splitter)
     var v2 = value2.trim().split(splitter)
+    var comma = value1.indexOf(',')!==-1
+
     var len = Math.min(v1.length, v2.length)
     var out = ''
     for (var i=0; i<len; i++) {
         out += lerpCSS(v1[i], v2[i], t)
-        if (i !== len-1)
-            out += ' '
+        if (i !== len-1) {
+            out += comma ? ', ' : ' '
+        }
     }
     return out
 }
