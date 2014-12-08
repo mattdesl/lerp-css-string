@@ -1,6 +1,6 @@
 {
   "name": "lerp-css-string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "interpolate values in a css string",
   "main": "index.js",
   "license": "MIT",
